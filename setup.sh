@@ -1,3 +1,7 @@
+if [[ -z $ZSH_VERSION ]]; then 
+  echo "Install and run on zsh!"
+  exit 1
+fi
 if [[ -z "$GIT_TOKEN" ]]; then
   echo "Provide git access token as 'GIT_TOKEN' environment variable."
   exit 1
