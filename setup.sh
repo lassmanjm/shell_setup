@@ -8,4 +8,4 @@ echo "$GIT_TOKEN" > $git_token_file
 echo "cloning repository 'lassmanjm/bash_profile'"
 git clone --recurse-submodules https://lassmanjm:$GIT_TOKEN@github.com/lassmanjm/bash_profile || exit $?
 $HOME/bash_profile/setup.sh
-source $HOME/.bashrc
+source $HOME/.zshrc
